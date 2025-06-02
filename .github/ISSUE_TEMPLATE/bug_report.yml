@@ -1,8 +1,8 @@
 name: Bug Report
 description: File a bug report.
 title: "[Bug]: "
-labels: ["bug", "triage", 'status: Todo']
-projects: ["dakotatokad/1"]
+labels: ["bug", "triage"]
+projects: []
 body:
   - type: markdown
     attributes:

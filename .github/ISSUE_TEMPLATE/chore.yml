@@ -1,8 +1,8 @@
 name: Chore
 description: Create an issue for a development chore
 title: "[Chore]: "
-labels: ["triage", "chore", "status: Todo"]
-projects: ["dakotatokad/1"]
+labels: ["triage", "chore"]
+projects: []
 body:
   - type: markdown
     attributes:

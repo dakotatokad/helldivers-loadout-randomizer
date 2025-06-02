@@ -1,8 +1,8 @@
 name: Feature Request
 description: Request a new feature or enhancement
 title: "[Feat]: "
-labels: ["triage", "feature", "status: Todo"]
-projects: ["dakotatokad/1"]
+labels: ["triage", "feature"]
+projects: []
 body:
   - type: markdown
     attributes:
@@ -16,22 +16,6 @@ body:
       placeholder: I'd like to see a new feature that does X, Y, and Z.
     validations:
       required: true
-  - type: dropdown
-    id: deployment
-    attributes:
-      label: What is this bot deployed on?
-      multiple: true
-      options:
-        - Docker
-        - Local Script
-    validations:
-      required: true
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
   - type: checkboxes
     attributes:
       label: Unique Feature
